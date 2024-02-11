@@ -25,7 +25,15 @@ const Contact = () => {
 
             <div>
                 <h1 className='h2-bold pb-4 text-custom-color'>Contact Information</h1>
-                <p className='font-bold text-lg'>Your needs are important to us! Our team is dedicated to providing exceptional service around the clock. Whether you have questions, require assistance, or need information, we're here for you 24/7. Feel free to reach out at any time – your satisfaction is our priority. Contact us confidently, and let us assist you promptly and effectively</p>
+                <p className='font-bold text-lg'>Your needs are important to us! 
+                Our team is dedicated to providing exceptional service around the clock. 
+              
+                </p>
+
+                <p className='py-6 text-lg font-bold'>
+                Whether you have questions, require assistance, or need information, we're here for you 24/7. 
+                Feel free to reach out at any time your satisfaction is our priority. Contact us confidently, and let us assist you promptly and effectively.
+                </p>
             </div>
 
              <div className='flex w-full flex-col gap-8 p-5 md:p-10'>
