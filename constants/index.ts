@@ -11,8 +11,19 @@ export const headerLinks = [
      },
 
      {
-        label: 'Contact',
-        route: '/contact'
+      label: 'Solutions',
+
+route: '/solutions'
+     
+     },
+
+
+     {
+      label: 'Contact',
+      route: '/contact'
+      
      }
 
+
 ]
+

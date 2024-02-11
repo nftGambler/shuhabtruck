@@ -13,15 +13,20 @@ const Contact = () => {
   return (
     <>
 
-    <section className='flex justify-center bg-primary-50 bg-dotted-pattern bg-contain'>
+    <section className='flex justify-center bg-contain bg-dotted-pattern'>
         <div className='wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0 items-center'>
-            <Image
-            src='/assets/images/contactus.png'
+            {/* <Image
+            src='/assets/images/'
             alt='contact logo'
             width={1000}
             height={1000}
             className='image-container max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]'
-            />
+            /> */}
+
+            <div>
+                <h1 className='h2-bold pb-4 text-custom-color'>Contact Information</h1>
+                <p className='font-bold text-lg'>Your needs are important to us! Our team is dedicated to providing exceptional service around the clock. Whether you have questions, require assistance, or need information, we're here for you 24/7. Feel free to reach out at any time – your satisfaction is our priority. Contact us confidently, and let us assist you promptly and effectively</p>
+            </div>
 
              <div className='flex w-full flex-col gap-8 p-5 md:p-10'>
 
@@ -35,10 +40,10 @@ const Contact = () => {
                         height={20}
                         className='mr-2'
                         />
-                    <AccordionTrigger>
+                    <AccordionTrigger className=''>
                  
-                        Phone:</AccordionTrigger>
-                    <AccordionContent>
+                        Dispatch & Office:</AccordionTrigger>
+                    <AccordionContent className=''>
                         +1 438 923 234
                     </AccordionContent>
                 </AccordionItem>
@@ -57,10 +62,10 @@ const Contact = () => {
                         height={20}
                         className='mr-2'
                         />
-                    <AccordionTrigger>
+                    <AccordionTrigger className=''>
                         Email:
                         </AccordionTrigger>
-                    <AccordionContent>
+                    <AccordionContent className=''>
                         shuhabsulatni@gmail.com
                     </AccordionContent>
                 </AccordionItem>
@@ -80,10 +85,10 @@ const Contact = () => {
                         height={20}
                         className='mr-2'
                         />
-                    <AccordionTrigger>
+                    <AccordionTrigger className=''>
                         Office Location:
                         </AccordionTrigger>
-                    <AccordionContent>
+                    <AccordionContent className=''>
                         Canada: Mississauga ON, Montreal QC
                     </AccordionContent>
                 </AccordionItem>

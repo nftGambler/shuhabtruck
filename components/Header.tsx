@@ -6,19 +6,19 @@ import MobileNav from './MobileNav'
 
 const Header = () => {
   return (
-        <header className='w-full border-b bg-custom-color'>
+        <header className='w-full border-b bg-footer-custom'>
             <div className='wrapper flex items-center justify-between'>
                 <Link href='/'>
 
                 <Image 
                 src="/assets/images/logo.webp"
-                width={128}
+                width={60}
                 height={38}
                 alt="Truck logo"
 
                 />
 
-                <h2 className='h3-bold text-white'>SAMEER TRUCKING INC</h2>
+                <h2 className='font-bold text-black'>SAMEER TRUCKING INC</h2>
 
                 </Link>
 
