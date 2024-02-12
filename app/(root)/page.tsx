@@ -65,7 +65,7 @@ export default function Home() {
         <div className="flex flex-col justify-center gap-8">
 
         <h3 className="h1-bold text-custom-color">
-          Reliability, effeciency and unparalled service
+          "Efficiency in Motion"
         </h3>
 
         <p className="font-bold text-xl text-black">
@@ -90,9 +90,6 @@ export default function Home() {
           delay: 2000,
         }),
       ]}
-
-
-
     >
         <CarouselContent className="flex items-center">
           {cardData.map((card, index) => (
@@ -154,12 +151,6 @@ export default function Home() {
           </div>
       </div>
     </section>
-
-
-
-
-
-  
 
 
 
