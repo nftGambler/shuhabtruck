@@ -31,14 +31,14 @@ const About = () => {
                     <div className='flex flex-col gap-6'>
 
                         <h2 className='h2-bold'>About Us</h2>
-                        <p className='font-bold text-lg '>
+                        <p className=' text-lg '>
 
                                 Welcome to Sameer Trucking Inc, where excellence meets reliability in the world of transportation. 
                                 With a strong presence in both Canada and the United States, 
                                 we take pride in our impeccable reputation for delivering top-notch trucking services.
                         </p>
 
-                         <p className='font-bold text-lg'>
+                         <p className=' text-lg'>
                             
                                 At Sameer Trucking Inc, punctuality is at the core of our operations.
                                  We understand the critical importance of timely deliveries, 
