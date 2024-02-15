@@ -29,7 +29,7 @@ const DriverForm = () => {
         if (!values) throw new Error("Missing values");
     
         try {
-            await fetch('http://localhost:3000/api/driver', {
+            await fetch('https://shuhabtruck.vercel.app/api/driver', {
                 method: "POST",
                 headers: {
                     "Content-type": "application/json"
