@@ -52,7 +52,7 @@ const Contact = () => {
                  
                         Dispatch & Office:</AccordionTrigger>
                     <AccordionContent className=''>
-                        +1 438 923 234
+                        +1 289 512 0811
                     </AccordionContent>
                 </AccordionItem>
 
@@ -74,7 +74,7 @@ const Contact = () => {
                         Email:
                         </AccordionTrigger>
                     <AccordionContent className=''>
-                        shuhabsulatni@gmail.com
+                        dispatch@sameertin.com
                     </AccordionContent>
                 </AccordionItem>
 
@@ -97,7 +97,7 @@ const Contact = () => {
                         Office Location:
                         </AccordionTrigger>
                     <AccordionContent className=''>
-                        Canada: Mississauga ON, Montreal QC
+                        Canada: Courtice ON, Laval QC
                     </AccordionContent>
                 </AccordionItem>
 
