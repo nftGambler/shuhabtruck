@@ -34,7 +34,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
 
     return NextResponse.json({ message: "Topic Created" }, { status: 201 });
   } catch (error) {
-    console.error("Validation Error:", error.errors);
-    return NextResponse.json({ error: "Validation Error", details: error.errors }, { status: 400 });
+    console.error("Validation Error:", error);
+    return NextResponse.json({ error: "Validation Error", details: error }, { status: 400 });
   }
 }
