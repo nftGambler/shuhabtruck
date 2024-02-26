@@ -118,7 +118,7 @@ const Solutions = () => {
         <div className="flex flex-col justify-center gap-8">
 
           <Image 
-          src='/assets/images/ftl.jpeg'
+          src='/assets/images/ftl.webp'
           alt="truck"
           height={1000}
           width={1000}
@@ -195,7 +195,7 @@ const Solutions = () => {
         </div>
 
         <Image 
-          src='/assets/images/ltl.jpeg'
+          src='/assets/images/ltl.jpg'
           alt="truck"
           height={1000}
           width={1000}
@@ -216,7 +216,7 @@ const Solutions = () => {
         <div className="flex flex-col justify-center gap-8">
 
           <Image 
-          src='/assets/images/od.jpeg'
+          src='/assets/images/od.jpg'
           alt="truck"
           height={1000}
           width={1000}

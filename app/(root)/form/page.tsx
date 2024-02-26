@@ -168,7 +168,7 @@ const DriverForm = () => {
 
                 <div>
                         <h1>Hiring Process:  </h1>
-                    <p>Minimum 3 Years Driving Experience</p>
+                    <p>Minimum 3 years verified AZ/Class 1 driving experience</p>
                 </div>
 
                 <Button className='w-full bg-black' type='submit'>
