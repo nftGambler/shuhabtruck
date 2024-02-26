@@ -48,9 +48,13 @@ const DriverForm = () => {
   return (
     <main className='flex min-h-screen flex-col items-center justify-betweenp py-24'>
 
+
+
         <h1>Personal Information</h1>
         <Form {...form}>
             <form onSubmit={form.handleSubmit(handleSubmit)} className='max-w-md w-full flex flex-col gap-4'>
+
+            
 
 
                 <FormField control={form.control} name='FirstName' render={({field}) => {
@@ -161,9 +165,17 @@ const DriverForm = () => {
                     </FormItem>
                 }}/>
 
+
+                <div>
+                        <h1>Hiring Process:  </h1>
+                    <p>Minimum 3 Years Driving Experience</p>
+                </div>
+
                 <Button className='w-full bg-black' type='submit'>
                     Submit
                 </Button>
+
+     
             </form>
 
         </Form>
