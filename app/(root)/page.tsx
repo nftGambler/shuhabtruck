@@ -124,7 +124,7 @@ export default function Home() {
       <div className="wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0 items-center">
         <div className="flex flex-col justify-center gap-8">
           <Image 
-          src='/assets/images/truck2.jpeg'
+          src='/assets/images/blue.jpeg'
           alt="truck"
           height={1000}
           width={1000}

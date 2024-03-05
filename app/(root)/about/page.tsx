@@ -18,12 +18,12 @@ const About = () => {
   return (
     <>
         <section className='flex justify-center bg-contain bg-dotted-pattern'>
-            <div className='wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0 items-center'>
+            <div className='wrapper grid grid-cols-1 gap-5 md:grid-cols-2 2xl:gap-0 items-center mt-12'>
                 <Image 
-                src='/assets/images/blue.jpeg'
+                src='/assets/images/aboutUs.jpeg'
                 alt="truck logo"
-                width={1000}
-                height={1000}
+                width={400}
+                height={400}
                 className='rounded'
                 />
 
