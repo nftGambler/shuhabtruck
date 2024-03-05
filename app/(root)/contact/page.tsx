@@ -48,12 +48,12 @@ const Contact = () => {
                         height={20}
                         className='mr-2'
                         />
-                    <AccordionTrigger className=''>
+
                  
-                        Dispatch & Office:</AccordionTrigger>
-                    <AccordionContent className=''>
+                        Dispatch & Office:
+
                         +1 289 512 0811
-                    </AccordionContent>
+
                 </AccordionItem>
 
             </Accordion>
@@ -61,8 +61,8 @@ const Contact = () => {
 
             <Accordion type="single" collapsible>
                 
-                <AccordionItem value="item-1">
 
+            <AccordionItem value="item-1">
                 <Image 
                         src='/assets/icons/emailicon.png'
                         alt='phone logo'
@@ -70,13 +70,11 @@ const Contact = () => {
                         height={20}
                         className='mr-2'
                         />
-                    <AccordionTrigger className=''>
+
                         Email:
-                        </AccordionTrigger>
-                    <AccordionContent className=''>
-                        dispatch@sameertin.com
-                    </AccordionContent>
-                </AccordionItem>
+
+                        dispatch@sameertinc.com
+                        </AccordionItem>
 
             </Accordion>
 
@@ -93,12 +91,12 @@ const Contact = () => {
                         height={20}
                         className='mr-2'
                         />
-                    <AccordionTrigger className=''>
+
                         Office Location:
-                        </AccordionTrigger>
-                    <AccordionContent className=''>
+
+
                         Canada: Courtice ON, Laval QC
-                    </AccordionContent>
+
                 </AccordionItem>
 
             </Accordion>

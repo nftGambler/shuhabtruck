@@ -282,7 +282,7 @@ const Solutions = () => {
         </div>
 
         <Image 
-          src='/assets/images/gpstracker.jpeg'
+          src='/assets/images/solutions.jpeg'
           alt="truck"
           height={1000}
           width={1000}
