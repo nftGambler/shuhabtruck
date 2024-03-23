@@ -11,8 +11,8 @@ const nextConfig = {
     async headers() {
       return [
         {
-          // matching all API routes
-          source: "/api/:path*",
+          // matching a specific API route
+          source: "/api/driver",
           headers: [
             { key: "Access-Control-Allow-Credentials", value: "true" },
             { key: "Access-Control-Allow-Origin", value: "*" },
